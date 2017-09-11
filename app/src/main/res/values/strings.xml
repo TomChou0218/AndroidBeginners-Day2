@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Day2</string>
+    <string name="enter_email">Enter email address</string>
+    <string name="enter_password">Enter password</string>
+    <string name="a_button">Activity A Button</string>
+    <string name="show_email">Email: </string>
+    <string name="show_password">Password: </string>
+</resources>
