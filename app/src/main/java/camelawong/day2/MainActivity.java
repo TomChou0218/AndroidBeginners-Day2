@@ -28,7 +28,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 email = editEmail.getText().toString();
                 password = editPassword.getText().toString();
-                if (!email.contains("@")) {
+                if (password.isEmpty() || email.isEmpty()){
+                    Toast.makeText(MainActivity.this, "Fields cannot be empty!", Toast.LENGTH_LONG).show();
+                } else if (!email.contains("@")) {
                     Toast.makeText(MainActivity.this, "Please input a valid email", Toast.LENGTH_LONG).show();
                 } else {
                     Intent intent = new Intent(MainActivity.this, BActivity.class);
