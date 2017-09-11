@@ -15,11 +15,13 @@ TASK REQUIREMENTS
 
 <table>
   <tr>
+    <th>Activity A (Empty fields)</th>
     <th>Activity A (Invalid email)</th>
     <th>Activity A</th>
     <th>Activity B</th>
   </tr>
   <tr>
+    <td><img src="https://github.com/camelawsc/AndroidBeginners-Day2/blob/master/screenshots/empty_fields.png" width="200"</td>
     <td><img src="https://github.com/camelawsc/AndroidBeginners-Day2/blob/master/screenshots/invalid%20email.png" width="200"></td>
     <td><img src="https://github.com/camelawsc/AndroidBeginners-Day2/blob/master/screenshots/activitya.png" width="200"></td>
     <td><img src="https://github.com/camelawsc/AndroidBeginners-Day2/blob/master/screenshots/activityb.png" width="200"></td>
